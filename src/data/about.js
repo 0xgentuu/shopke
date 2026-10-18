@@ -17,7 +17,7 @@ export const values = [
 ];
 
 export const team = [
-  { name: "Ada Obi", role: "Founder" },
-  { name: "Tunde Bello", role: "Engineering" },
-  { name: "Zainab Musa", role: "Seller success" },
+  { name: "Victor Ohachor", role: "Founder" },
+  { name: "Sumaila Aliyu", role: "Engineering" },
+  { name: "Daniel Toluwalase", role: "Seller success" },
 ];

@@ -28,13 +28,17 @@ export default function AboutPage() {
         <div className="grid grid--3">
           {team.map((member) => (
             <article className="card" key={member.name}>
-              <div className="placeholder about__photo" aria-hidden="true" />
+              <img
+               className={`about__photo${member.fit === "contain" ? " about__photo--contain" : ""}`}
+               src={member.image}
+               alt={`Portrait of ${member.name}`}
+              />
               <h3 className="about__name">{member.name}</h3>
               <p className="text-muted">{member.role}</p>
             </article>
           ))}
         </div>
       </section>
-    </>
+    </> 
   );
 }
